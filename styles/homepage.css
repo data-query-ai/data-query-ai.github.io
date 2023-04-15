@@ -1,9 +1,6 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #20304b;
 }
 
 @keyframes fadeIn {
@@ -19,17 +16,6 @@ body {
 }
 
 
-.wrapper {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  animation: fadeIn 1000ms ease;
-  -webkit-animation: fadeIn 1000ms ease;
-  
-}
-
 /* Start Landing Page */
 
 .landing-page {
@@ -40,12 +26,12 @@ body {
   -webkit-transform: translate(-50%, -50%);
   animation: fadeIn 1000ms ease;
   -webkit-animation: fadeIn 1000ms ease;
-  background-color: #FFF;
+  background-color: #20304b;
 }
 
 .landing-page .header-area {
   display: flex;
-  padding: 0px 0 0;
+  padding: 10px 0 0;
   position: relative;
 }
 
@@ -55,7 +41,7 @@ body {
   margin-top: 30px;
   font-size: 40px;
   width: 300px;
-  color: #5d5d5d;
+  color: #ffffff;
 }
 
 .landing-page .header-area .links {
@@ -69,17 +55,16 @@ body {
 
 .landing-page .header-area .links li {
   display: inline-block;
-  color: #5d5d5d;
+  color: #ffffff;
   cursor: pointer;
 }
 
-.landing-page .header-area .links a {
+.landing-page .header-area .links .home {
   text-decoration: none;
   border: 0;
   border-radius: 20px;
   padding: 6px 6px;
-  color: #FFF;
-  background-color: #20304b;
+  color: #ffffff;
 }
 
 .landing-page .header-area .links .contact {
@@ -87,8 +72,8 @@ body {
   border: 0;
   border-radius: 20px;
   padding: 6px 6px;
-  color: #FFF;
-  background-color: #20304b;
+  color: #5d5d5d;
+  background-color: #ffffff;
 }
 
 .landing-page .info {
@@ -101,14 +86,14 @@ body {
   font-size: 24px;
   margin: 0 0 0px;
   line-height: 1.4;
-  color: #5d5d5d;
+  color: #ffffff;
 }
 
 .landing-page .info p {
-  margin: 0;
+  margin: 10;
   line-height: 1.6;
   font-size: 15px;
-  color: #5d5d5d;
+  color: #ffffff;
 }
 
 .landing-page .info button {
@@ -117,8 +102,8 @@ body {
   padding: 12px 30px;
   margin-top: 30px;
   cursor: pointer;
-  color: #FFF;
-  background-color: #20304b;
+  color: #5d5d5d;
+  background-color: #ffffff;
 }
 
 .clearfix {
