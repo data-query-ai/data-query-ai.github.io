@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+@-webkit-keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+  
+}
+
+/* Start Landing Page */
+
+.landing-page {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+  background-color: #FFF;
+}
+
+.landing-page .header-area {
+  display: flex;
+  padding: 0px 0 0;
+  position: relative;
+}
+
+.landing-page .header-area .logo {
+  text-transform: uppercase;
+  font-style: italic;
+  margin-top: 30px;
+  font-size: 40px;
+  width: 300px;
+  color: #5d5d5d;
+}
+
+.landing-page .header-area .links {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.landing-page .header-area .links li {
+  display: inline-block;
+  color: #5d5d5d;
+  cursor: pointer;
+}
+
+.landing-page .header-area .links a {
+  text-decoration: none;
+  border: 0;
+  border-radius: 20px;
+  padding: 6px 6px;
+  color: #FFF;
+  background-color: #20304b;
+}
+
+.landing-page .header-area .links .contact {
+  text-decoration: none;
+  border: 0;
+  border-radius: 20px;
+  padding: 6px 6px;
+  color: #FFF;
+  background-color: #20304b;
+}
+
+.landing-page .info {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+
+.landing-page .info h1 {
+  font-size: 24px;
+  margin: 0 0 0px;
+  line-height: 1.4;
+  color: #5d5d5d;
+}
+
+.landing-page .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+
+.landing-page .info button {
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #20304b;
+}
+
+.clearfix {
+clear: both;
+}
+
+/* End Landing Page */
